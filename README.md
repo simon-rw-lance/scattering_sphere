@@ -1,3 +1,5 @@
+OUT OF DATE
+
 # Scattering sphere
 Python code for simple scattering sphere calculations.
 

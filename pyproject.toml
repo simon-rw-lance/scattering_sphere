@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scattering_sphere"
+version = "0.1.0"
+description = "Simple photon scattering sphere"
+authors = [
+    {name = "Simon R W Lance", email = "simon.rw.lance@gmail.com"},
+]
+maintainers = [
+    {name = "Simon R W Lance", email = "simon.rw.lance@gmail.com"},
+]
+
+urls = {homepage = "https://github.com/simon-rw-lance/scattering_sphere"}
+requires-python = ">=3.8"
+dependencies = [
+    "numpy>=1.21.5",
+    "matplotlib>=3.5.2",
+]
+
+[project.scripts]
+scattering_sphere = "scattering_sphere.__main__:main"
